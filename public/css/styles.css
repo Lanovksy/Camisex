@@ -1,0 +1,73 @@
+body {
+    background-image: linear-gradient(178.2deg, rgba(118, 8, 23, 1) 10.9%, rgba(158, 12, 33, 1) 62.6%);
+}
+
+bg-red {
+    background-color: red;
+}
+
+.text {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.shadow {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-condom {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1rem;
+}
+
+.card-condom-body {
+    padding: 10px;
+    margin: 0;
+}
+
+.card-condom img {
+    width: 100%;
+    height: 175px;
+}
+
+.img-list {
+    height: 100px;
+    width: 100px;
+}
+
+.img-list img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.img-cart {
+    height: 200px;
+    width: 200px;
+}
+
+.img-cart img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
